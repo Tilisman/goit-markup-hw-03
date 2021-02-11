@@ -12,7 +12,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #f5f7fa;
-    padding: 40px;
+    padding: 0;
+    margin: 0;
+    width: 1600px;
 }
 
 li {
@@ -28,11 +30,15 @@ address {
 }
 
 .footer {
+    width: inherit;
     background-color: var(--primary-background);
 }
 
 .wrapper {
-    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
     background-color: var(--primary-white);
     box-sizing: border-box;
 }
@@ -41,7 +47,7 @@ address {
 /* Header */
 
 .header {
-    width: 1600px;
+    /* width: 1200px; */
     border-bottom: 1px solid #ececec;
 }
 
@@ -50,12 +56,12 @@ address {
 
 .site-nav {
     display: flex;
-    width: 1170px;
-    height: 80px;
-    padding-left: 15px;
+    align-items: stretch;
+    width: inherit;
+    /* padding-left: 15px;
     padding-right: 15px;
     margin-left: 215px;
-    margin-right: 215px;
+    margin-right: 215px; */
     align-items: center;
 }
 
@@ -81,7 +87,7 @@ address {
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 0.83;
     letter-spacing: 0.03em;
 }
 
@@ -90,6 +96,8 @@ address {
 
 .nav-list {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-list .link.current {
@@ -97,12 +105,15 @@ address {
 }
 
 .nav-list .link {
+    display: block;
+    margin: 0;
+    padding: 32px 25px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.142;
     letter-spacing: 0.02em;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .nav-list .link:hover,
@@ -115,18 +126,18 @@ address {
 
 .contacts-list {
     display: flex;
-    padding: 15px;
+    /* padding: 15px;
     /* margin: auto;*/
-    margin-left: 215px;
+    /* margin-left: 215px; */
 }
 
 .contacts-list .link {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.142;
     letter-spacing: 0.02em;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .contacts-list .link:hover,
@@ -146,7 +157,7 @@ address {
 
 .list-title {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
@@ -155,9 +166,10 @@ address {
 
 .footer {
     /* width: 1348px; */
-    height: 192px;
-    padding-top: 60px;
-    padding-left: 215px;
+    /* height: 192px; */
+    /* padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 215px; */
 }
 
 .footer a {
@@ -169,7 +181,7 @@ address {
 }
 
 .all-logo-footer {
-    padding: 9px;
+    /* padding: 9px; */
 }
 
 .adress a {
@@ -177,19 +189,23 @@ address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.714;
     letter-spacing: 0.03em;
 }
 
 .adress {
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .adress p {
-    margin: 9px 0px 9px 0px;
+    /* margin: 0; */
+}
+
+.adress p:not(:last-child) {
+    /* padding: 18px 0; */
 }
 
 .adress a {
-    padding: 9px;
+    /* padding: 0px; */
     /* margin: 9px; */
 }

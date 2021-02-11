@@ -41,7 +41,8 @@
 /* Portfolio Section */
 
 .section.portfolio {
-    width: 1170px;
+    width: 1200px;
+    height: auto;
     padding-left: 199px;
     /* display: flex;
 		flex-direction: row; */
@@ -49,23 +50,31 @@
 
 .portfolio-list {
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .portfolio-list li {
-    display: inline-block;
+    /* flex-direction: column; */
     box-sizing: border-box;
     width: 370px;
     border: 1px solid #eeeeee;
-    text-align: center;
+    text-align: left;
     margin: 8px;
 }
 
 .portfolio-list p {
     font-size: 16px;
     font-weight: normal;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
+    padding: 10px 24px;
+    margin: 0;
 }
 
-
-/* .section {} */
+.portfolio-list .list-title {
+    padding-left: 24px;
+    margin: 0;
+    margin-top: 10px;
+    padding-top: 20px;
+}

@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 600px;
+    width: 1600px;
+    min-height: 600px;
     background-image: url(../img/hero.jpg);
     overflow: visible;
     background-color: var(--primary-background-opacity40);
@@ -27,7 +27,7 @@
     font-weight: 900;
     font-style: normal;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.363;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -40,7 +40,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875;
     letter-spacing: 0.06em;
     align-items: center;
     text-align: center;
@@ -58,7 +58,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -68,7 +68,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.187;
     letter-spacing: 0.03em;
 }
 
@@ -93,16 +93,16 @@
 }
 
 .features {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    margin-left: 145px;
+    margin-left: 145px; */
 }
 
 .features>li {
-    padding: 15px;
+    /* padding: 15px;
     width: 270px;
     margin-top: 48px;
-    margin-bottom: 48px;
+    margin-bottom: 48px; */
 }
 
 .features .list-title {
@@ -110,7 +110,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -120,7 +120,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.714;
     letter-spacing: 0.03em;
 }
 
@@ -130,7 +130,8 @@
 .about {
     display: flex;
     flex-direction: row;
-    margin-left: 145px;
+    /* width: 1200px;
+    margin-left: 145px; */
 }
 
 .about .section-title {
@@ -138,7 +139,7 @@
 }
 
 .about li {
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .about-container {}
@@ -148,20 +149,20 @@
 
 .section.team {
     background-color: var(--secondary-background);
-    margin-top: 94px;
+    /* margin-top: 94px; */
 }
 
 .team .section-title {
-    padding-top: 94px;
-    padding-bottom: 4px;
+    /* padding-top: 94px;
+    padding-bottom: 4px; */
 }
 
 .team-list {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
     margin-block-end: 0em;
     padding-bottom: 94px;
-    padding-left: 145px;
+    padding-left: 145px; */
 }
 
 .team-list li {
