@@ -61,7 +61,7 @@ address {
 /* Header */
 
 .header {
-    border-bottom: 1px solid #ececec;
+    outline: 1px solid #ececec;
 }
 
 
