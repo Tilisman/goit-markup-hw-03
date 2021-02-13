@@ -15,7 +15,7 @@
 /* ===CONTAINER=== */
 
 .portfolio-container {
-    width: 1200px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -70,9 +70,9 @@
     margin-top: calc(-1 * var(--set-gap));
 }
 
-.portfolio-list li {
+.portfolio-list>.item {
     box-sizing: border-box;
-    flex-basis: calc(100% / 3-var(--set-gap));
+    flex-basis: calc(100% / 3 - var(--set-gap));
     border: 1px solid #eeeeee;
     text-align: left;
     margin-left: var(--set-gap);
