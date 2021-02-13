@@ -51,9 +51,11 @@ Sections
 Remove the margin in all browsers.
 */
 
-​ body {
-    margin: 0;
+ul,
+p,
+a {
     padding: 0;
+    margin: 0;
 }
 
 ​
@@ -63,7 +65,9 @@ Improve consistency of default fonts in all browsers. (https://github.com/sindre
 
 ​ body {
     font-family: system-ui, -apple-system, /* Firefox supports this but not yet `system-ui` */
-    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    margin: 0;
+    padding: 0;
 }
 
 ​
@@ -120,7 +124,7 @@ strong {
 kbd,
 samp,
 pre {
-    font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     /* 1 */
     font-size: 1em;
     /* 2 */
