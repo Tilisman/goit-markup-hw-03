@@ -76,7 +76,7 @@
     margin-right: auto;
     display: flex;
     align-items: center;
-    padding: 94px 15px;
+    padding: 0 15px;
 }
 
 .section.features {
@@ -84,6 +84,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 94px 0;
 }
 
 .section-title.hidden-title {
@@ -138,6 +139,9 @@
     align-items: center;
     flex-direction: column;
     padding: 0 15px;
+}
+
+.about.section {
     padding-bottom: 94px;
 }
 
@@ -160,12 +164,12 @@
     align-items: center;
     flex-direction: column;
     padding: 0 15px;
-    padding-bottom: 94px;
-    padding-top: 94px;
 }
 
 .section.team {
     background-color: var(--secondary-background);
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .team-list {
