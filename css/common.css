@@ -195,7 +195,7 @@ address {
 }
 
 .footer-container {
-    width: var(--cont-width);
+    max-width: var(--cont-width);
     margin-left: auto;
     margin-right: auto;
     display: flex;
