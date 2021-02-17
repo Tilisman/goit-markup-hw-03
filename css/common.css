@@ -58,10 +58,6 @@ address {
     font-style: normal;
 }
 
-.footer {
-    background-color: var(--primary-background);
-}
-
 
 /* Header */
 
@@ -195,6 +191,7 @@ TODO #1
 
 .footer {
     padding: 60px 0;
+    background-color: var(--primary-background);
 }
 
 .footer-container {
